@@ -21,7 +21,7 @@
         @include('layouts.elements.navigation')
 
         <main class="container mx-auto mt-10">
-            <h2 class="font-black text-center text-3xl mb-10 text-white">
+            <h2 class="mb-10 text-3xl font-black text-center text-white">
                 @yield('titulo')
             </h2>
             @yield('contenido')
